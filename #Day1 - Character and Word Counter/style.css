@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.container {
+  background-color: lavender;
+  border: 5px solid rgb(6, 12, 6);
+  padding: 10px;
+  margin: 10px;
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  font-size: 26px;
+  resize: none;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  margin-left: 300px;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  font-size: 22px;
+  color: white;
+}
+
+p {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
