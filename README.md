@@ -2,6 +2,7 @@
 
 
 Rules:
+
 #1. create a project per day
 
 #2. share your progress on Social Media (Twitter, Facebook, Linkedin, etc) using the #100Days100Projects hashtag
