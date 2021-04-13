@@ -1,3 +1,4 @@
+
 ## TO-DO List
 
 The project is a single webpage containing different list items and a text area to add custom tasks. 
@@ -18,3 +19,8 @@ After click on the Check icon, your task is transfer to completed section.
 - Every time user adds an item, all the items are displayed on the screen, the latest one on top.
 - User can change the status of the items from Not Completed to Completed, just by clicking on tick sign. 
 - User can delete any item at any time by clicking on the trash bin on the right side of each row.(Both Complete and Not Complete section)
+
+
+
+![collage (1)](https://user-images.githubusercontent.com/67471717/114519933-85c3e980-9c5e-11eb-8139-0184bad7d484.jpg)
+
