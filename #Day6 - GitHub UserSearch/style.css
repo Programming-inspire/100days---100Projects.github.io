@@ -1,0 +1,27 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background: linear-gradient(to right, #f2994a, #f2c94c);
+}
+
+.header{
+	text-align: center;
+	margin-top:100px;
+	font-family:Helvetica Neue;
+}
+
+
+
+#usernameInput{
+	margin-left:20px;
+	margin-top: 20px;
+	padding:25px;
+}
+#btn{
+	margin-left:90px;
+
+	margin-bottom:120px;
+}
