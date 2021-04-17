@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.column {
+  float: left;
+  width: 35vw;
+  height: 50vh;
+  padding: 10px;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  margin-top: 5vw;
+  font-size: 60px;
+}
+
+/* Clear floats after the columns */
+.row {
+  margin-top: 2vw;
+  margin-left: 15vw;
+}
+
+.quoteTxt {
+  text-align: center;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vw;
+  color: #fff;
+}
+
+.quoteAuthor {
+  text-align: right;
+  margin-top: 5vw;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.abdul_kalam {
+  background-image: url("./img/abdul_kalam1.jpg");
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.Nelson_Mandela {
+  background-image: url("./img/Nelson_Mandela.jpg");
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+  object-fit: cover;
+}
+.Swami_Vivekananda {
+  background-image: url("./img/Swami_Vivekananda.jpg");
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+}
+.Mahatma_Gandhi {
+  background-image: url("./img/Mahatma_Gandhi.jpg");
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+}
+.Jawaharlal_Nehru {
+  background-image: url("./img/Jawaharlal_Nehru1.jpg");
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+  object-fit: contain;
+}
+.Subhas_Chandra_Bose {
+  background-image: url("./img/Subhas_Chandra_Bose1.jpg");
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+}
+.switchBtn {
+  width: 10vw;
+  height: 8vh;
+  margin-left: 15vw;
+  margin-top: 4vw;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.switchBtn:hover {
+  background-color: #4caf50;
+  color: white;
+}
