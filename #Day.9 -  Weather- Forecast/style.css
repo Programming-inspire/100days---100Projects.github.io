@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.card {
+  width: 35%;
+  height: 500px;
+  margin: 1rem auto;
+  background: #0f2027;
+  margin-top: 90px;
+}
+.description {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+.city {
+  font-size: 1.5rem;
+}
+.temperature {
+  font-size: 3rem;
+}
+.icon img {
+  width: 7rem;
+}
+
+@media (max-width: 680px) {
+  .card {
+    width: 70%;
+  }
+}
