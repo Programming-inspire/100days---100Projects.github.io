@@ -12,7 +12,7 @@ In order to create and implement a modal on your page, there are three steps tha
 - CSS: styling to determine how your modal looks and appears on the page
 - Javascript: placing event listeners so the modal appears/disappears depending on your user interactivity
 
-## Screenshot
+## GIF
 
 ![Popup](https://user-images.githubusercontent.com/67471717/115566958-5d7c6080-a2d8-11eb-8fe9-1f1156545272.gif)
 
