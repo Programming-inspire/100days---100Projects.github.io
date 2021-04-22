@@ -1,0 +1,105 @@
+/* (A) CONTAINERS + SHARED */
+
+body {
+  background: #6dd5fa;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#shop-list {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: rgb(7, 2, 2);
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#shop-list,
+#shop-add {
+  background: #ffffff;
+  border: 3px solid rgb(17, 12, 12);
+  padding: 10px;
+  max-width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.item-row,
+.item-name,
+.item-del,
+.item-ok,
+#shop-item,
+#shop-add-btn {
+  box-sizing: border-box;
+  border: 0;
+}
+.item-name,
+#shop-item {
+  background: #fff;
+  padding: 10px;
+}
+.item-del,
+.item-ok,
+#shop-add-btn {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* (B) SHOPPING LIST */
+.item-row {
+  display: flex;
+  width: 100%;
+  margin: 5px 0;
+}
+.item-name {
+  width: 60%;
+}
+.item-name.item-got {
+  background: #46f79e;
+}
+.item-name.item-got:before {
+  content: "\02713";
+  margin-right: 5px;
+  font-weight: bold;
+  color: #00d036;
+}
+
+.item-del,
+.item-ok {
+  width: 20%;
+}
+.item-del {
+  background: #de1919;
+}
+.item-ok {
+  background: #5a75d6;
+}
+
+/* (C) ADD ITEM */
+#shop-item {
+  width: 100%;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: rgb(7, 2, 2);
+  border: 1px solid black;
+  display: inline-block;
+}
+#shop-add-btn {
+  width: 50%;
+  height: 50px;
+  background: #5a75d6;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  font-size: 1.25em;
+}
+
+/* [DOES NOT MATTER] */
+html,
+body {
+  font-family: arial, sans-serif;
+}
