@@ -1,0 +1,138 @@
+body {
+  background: linear-gradient(to right, #24c6dc, #514a9d);
+  margin: 0;
+}
+.clear {
+  clear: both;
+}
+.static {
+  background-color: #ffffff;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 15px;
+}
+#title {
+  color: #000000;
+  font-weight: bold;
+  margin: 25px 0 0 0;
+  text-align: center;
+  padding: 5px;
+}
+#att {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+#initialInfo {
+  text-align: center;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#infoSign {
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 0.75em;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+#categoryDropdown {
+  background-color: rgba(35, 82, 124, 0.9);
+  color: white;
+  margin-top: 10px;
+}
+#categoryDropdown:hover {
+  background-color: rgb(35, 82, 124);
+}
+.category {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
+.category:hover {
+  background-color: #d9d9d9;
+}
+.dropdown {
+  text-align: center;
+}
+.button,
+.dropdown-menu {
+  margin: 5px auto;
+}
+.dropdown-menu {
+  left: 50%;
+  margin-left: -87.5px;
+  width: 175px;
+}
+#hint {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+#howToPlay {
+  font-size: 1.1em;
+}
+#game {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  color: black;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+}
+#category {
+  margin: 0;
+}
+#importantStatus {
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#difficulty {
+  margin: 0;
+  padding: 0;
+}
+#hangman {
+  display: block;
+  margin: 30px auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 250px;
+}
+#keyboard {
+  font-size: 1.3em;
+  margin: 30px 0;
+  text-align: center;
+}
+#keyboard div {
+  margin: 15px 0;
+}
+#keyboard span {
+  border: 1px solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 10px;
+}
+#keyboard span:hover {
+  background-color: #23527c;
+  color: #eee;
+}
+.vowel {
+  background-color: #23527c;
+  color: white;
+}
+#word {
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.center {
+  text-align: center;
+}
