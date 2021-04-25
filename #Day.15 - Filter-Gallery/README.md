@@ -6,4 +6,4 @@
 
 ## ScreenShot
 
-![fliter](https://user-images.githubusercontent.com/67471717/115989487-3aa1c300-a5dc-11eb-9bfa-d032fc371f67.PNG)
+![filter-image](https://user-images.githubusercontent.com/67471717/115989663-067ad200-a5dd-11eb-9123-0132da418a1a.PNG)
