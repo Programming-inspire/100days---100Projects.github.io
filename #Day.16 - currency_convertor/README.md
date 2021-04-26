@@ -1,6 +1,6 @@
 ## Currency-Convertor
 
-Today I will learn to create a Currency Convertor With HTML CSS JavaScript. In other words, you can create a program for comparing money of different countries.
+Today I will learn to create a Currency Convertor With HTML CSS JavaScript. I can create a program for comparing money of different countries.
 Basically, there are two sections for two currency, you can compare them by switching up and down also you can select any currency from the dropdown and
 I have used a third-party JSON API for exchanging with real-time.
 
