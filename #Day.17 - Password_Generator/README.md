@@ -10,6 +10,10 @@ Those generated passwords are mix with numbers, alphabets(Lower & Upper case), a
 There is a container with an input field, enter the length of password and some checkbox inputs for select password's strength and condition, When you click on the generate 
 password button each time program automatically generated a random strong password.
 
+## Live Demo
+
+ https://password-generator-withjs.netlify.app/
+
 
 ## Screenshot
 
