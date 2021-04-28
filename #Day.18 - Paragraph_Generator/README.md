@@ -1,8 +1,6 @@
 ## Paragraph generator
 
-In this project, I will  create an Lorem Ipsum generator with JavaScript. Lorem Ipsum is the dummy text, 
-used by almost all developers to show in place of data in their project.
-There is the container to set the range of paragraph, and click on the generate, paragraph will be generated.
+In this project, I will create a Lorem Ipsum generator with JavaScript. Lorem Ipsum is the dummy text, used by almost all developers to show in place of data in their project. There is a container to set the range of paragraphs and click on the generate, the paragraph will be generated.
 
 ## Screenshot
 
