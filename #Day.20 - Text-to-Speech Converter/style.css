@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  min-width: 80vw;
+}
+p {
+  font-size: 3em;
+  font-family: fantasy;
+  text-align: center;
+  margin: 2em 0;
+}
+.input button {
+  background-color: #ffff;
+  border: 2px solid #fff;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 45px;
+  margin-top: 1em;
+  outline: none;
+  cursor: pointer;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 1em 0;
+}
+.inputGroup input {
+  background-color: inherit;
+  color: #fff;
+  font-size: 1em;
+  padding: 30px 10px 10px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+}
+.inputGroup input::placeholder {
+  opacity: 0;
+}
+.inputGroup select {
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+.inputGroup label {
+  position: absolute;
+  padding-left: 10px;
+  margin-bottom: 2px;
+  color: #fff;
+  cursor: pointer;
+  transform: translate(4px, -14px) scale(1.02);
+  transform-origin: left top;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.inputGroup input,
+.inputGroup label {
+  transition: 0.4s all ease;
+}
+.inputGroup input:focus,
+.inputGroup input:not(:placeholder-shown) {
+  border-bottom: 2px solid #ffff;
+}
+.inputGroup input:focus ~ label,
+.inputGroup input:not(:placeholder-shown) ~ label {
+  transform: translate(10px, -35px) scale(0.9);
+  padding: 0;
+  color: #ffff;
+}
