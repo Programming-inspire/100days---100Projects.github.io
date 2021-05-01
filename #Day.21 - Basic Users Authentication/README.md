@@ -11,9 +11,23 @@ Finally, log in to the user securely based on their name and password.
 
 3. Enter this Command -> 'npm install'
 
-4. After install the node module, Open the code editor.
+4. After install the node module, Open the VS code editor.
 
-5. Go to request. rest file
+5. Open the Extension in VS code, search and download "REST CLIENT" extension.
+
+6. Go to request .rest file.
+
+7. First, Send request to POST method.
+
+8. Second, Send request to GET method.(View on user name and password)
+
+9. Last, Send request to POST method to check the login info. ( View on Success or Failure)
+
+
+## Screenshot
+
+![node_auth](https://user-images.githubusercontent.com/67471717/116786481-7f39cc80-aabc-11eb-9696-93d891d843f8.PNG)
+
 
 
 
