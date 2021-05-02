@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+}
+
+#message-container {
+  width: 80%;
+  padding: 10px;
+  max-width: 1200px;
+  margin-top: 80px;
+}
+
+#message-container div {
+  background-color: #000046;
+  padding: 5px;
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #1cb5e0;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+#send-container {
+  position: fixed;
+  padding-bottom: 90px;
+  bottom: 0;
+  background-color: transparent;
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+}
+
+#message-input {
+  flex-grow: 1;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding-left: 10px;
+  background: aquamarine;
+  border-radius: 10px;
+}
+
+#send-button {
+  margin-left: 20px;
+  width: 90px;
+  background: aquamarine;
+  border: 2px solid black;
+  font-family: fantasy;
+  font-size: 25px;
+  border-radius: 20px;
+}
