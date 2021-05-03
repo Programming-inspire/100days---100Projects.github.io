@@ -1,0 +1,13 @@
+body {
+  margin: 100px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffff;
+  padding: 0 10px;
+  background: black;
+}
+h2 {
+  line-height: 1.2;
+}
