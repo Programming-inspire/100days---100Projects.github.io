@@ -11,3 +11,9 @@ stream to continuously deliver the video data, the browser handles that graceful
 2. Navigate to folder, open the cmd to run -> `npm install`
 3. Next, to run the index.js use this command - > `npm start`
 4. Open the index.html in localhost, Video should be streaming. 
+
+
+## ScreenShot
+
+![video streaming](https://user-images.githubusercontent.com/67471717/116890709-87744200-ac4b-11eb-8dcf-21b026ae1511.PNG)
+
