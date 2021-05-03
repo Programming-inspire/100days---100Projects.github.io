@@ -7,3 +7,7 @@ stream to continuously deliver the video data, the browser handles that graceful
 
 ## How to run?
 
+1. Download the repository.
+2. Navigate to folder, open the cmd to run -> `npm install`
+3. Next, to run the index.js use this command - > `npm start`
+4. Open the index.html in localhost, Video should be streaming. 
