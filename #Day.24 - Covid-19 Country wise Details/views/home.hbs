@@ -1,0 +1,110 @@
+<style>
+    body {
+        background: #203a43;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin: 40px;
+    }
+
+    .header {
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .word {
+        color: #fff;
+        padding: 50px;
+        font-family: cursive;
+        font-size: calc(30px + 2vw);
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin-top: 90px;
+        margin-right: -80px;
+
+    }
+
+    h2 {
+        font-family: monospace;
+        text-align: start;
+        margin-bottom: -60px;
+        color: #fff;
+        margin-left: 50px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .images {
+        margin: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        margin-left: 60px;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 2px solid #fff;
+        text-align: left;
+        padding: 8px;
+        color: #fff;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .column {
+            width: 100%;
+        }
+    }
+</style>
+<div class="header">
+    <h1 class="word">Covid-19 Country wise Details</h1>
+    <img src="https://www.psycharchives.org/retrieve/096175aa-f7f2-4970-989d-d934c30b5551">
+</div>
+
+{{#each info as |val key| }}
+<h2>{{val.country}}</h2>
+<div class="container">
+
+    <img class="images" src="{{val.countryInfo.flag}}" />
+    <table>
+        <tr>
+            <th>
+                <h3>Total Cases</h3>
+            </th>
+            <th>
+                <h3>Active Cases</h3>
+            </th>
+            <th>
+                <h3>Recovery Cases</h3>
+            </th>
+            <th>
+                <h3>Death Cases</h3>
+            </th>
+        </tr>
+        <tr>
+            <td>{{val.cases}}</td>
+            <td>{{val.active}}</td>
+            <td>{{val.recovered}}</td>
+            <td>{{val.deaths}}</td>
+        </tr>
+    </table>
+</div>
+
+
+
+{{/each}}
