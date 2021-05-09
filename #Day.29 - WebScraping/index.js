@@ -11,7 +11,7 @@ request(url, function(err, res, data){
         const elementSelector = '#main > div > span > div > div > div.lister > table > tbody > tr '
     
         $(elementSelector).each(function(id) {
-            if(id <= 40)
+            if(id <= 249)
             {
             var MovieName= $(this).find(".titleColumn > a").html();  
             var year = $(this).find(".titleColumn > span").html();
