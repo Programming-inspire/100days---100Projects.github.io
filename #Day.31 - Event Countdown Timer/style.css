@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+.clock {
+  width: 400px;
+  height: 800px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
+.clock > span {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(3, 1, 1);
+}
+
+.clock > span > span {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+input {
+  text-align: center;
+  padding: 15px;
+  margin: 80px;
+  font-size: 1.5em;
+}
