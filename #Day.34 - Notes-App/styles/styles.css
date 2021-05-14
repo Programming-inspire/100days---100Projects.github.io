@@ -1,0 +1,200 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #000046;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #ffff;
+  color: #000000;
+}
+
+/* Container */
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+/* Header */
+
+.header {
+  color: white;
+  margin-top: 8rem;
+  padding: 50px;
+}
+
+.header__title {
+  font-size: 5rem;
+  margin-bottom: 0.4rem;
+}
+
+.header__subtitle {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+/* Actions Bar */
+
+.actions {
+  padding: 1rem;
+}
+
+.actions__container {
+  align-items: center;
+  display: flex;
+  max-width: 60rem;
+  margin: 0 auto;
+  min-height: 3rem;
+  padding: 0 1.6rem;
+}
+
+.actions__container--spaced {
+  justify-content: space-between;
+}
+
+/* Form Inputs */
+
+.input {
+  width: 200px;
+  height: 5rem;
+  border: 1px solid #dedfe0;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 2rem;
+  margin-right: 5rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 50px;
+}
+
+.dropdown {
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 5rem;
+  border-radius: 5px;
+  border: 1px solid #dedfe0;
+  background: white;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  background: rgb(11, 201, 185);
+  border: none;
+  border-bottom: 2px solid #396684;
+  color: rgb(1, 2, 2);
+  font-size: 2rem;
+  font-family: fantasy;
+  padding: 0.8rem;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #3bf388;
+}
+
+.button--secondary {
+  background: #f50f0f;
+  border: 1px solid #310202;
+}
+
+.button--secondary:hover {
+  background: #fff;
+}
+
+/* Note editor */
+
+.title-input {
+  border: 1px solid #dedfe0;
+  font-family: fantasy;
+  font-size: 2rem;
+  font-weight: 300;
+  display: block;
+  margin: 2.4rem 0;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.body-input {
+  border: 1px solid #dedfe0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 300;
+  display: block;
+  margin: 2.4rem 0;
+  min-height: 15rem;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+/* Note List Item */
+
+.list-item {
+  text-decoration: none;
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #dedfe0;
+  margin: 1.6rem 0;
+  padding: 1.6rem;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+.list-item:hover {
+  background: #0000;
+  color: #fff;
+}
+
+.list-item__title {
+  font-family: fantasy;
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.list-item__subtitle {
+  color: rgb(1, 54, 116);
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.list-item__subtitle:hover {
+  color: #ffff;
+}
+
+.empty-message {
+  text-align: center;
+  margin: 3.2rem 0;
+  color: #fff;
+}
