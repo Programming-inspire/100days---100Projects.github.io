@@ -8,7 +8,7 @@ Through the Project i can learn the Material UI basic concepts and animations.
 1. Download the Repository.
 2. Navigate to folder, open cmd to run -> `npm install`
 3. Next, -> `npm start`
-4. Sever has started, to view on the landing page in browser.
+4. Server has started, to view on the landing page in your browser.
 
 ## Demo
 
