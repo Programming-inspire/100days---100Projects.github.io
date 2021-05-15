@@ -3,7 +3,7 @@
 In this Project, I'll build a cool landing page with react and material UI.
 Through the Project i can learn the Material UI basic concepts and animations.
 
-#How to run?
+## How to run?
 
 1. Download the Repository.
 2. Navigate to folder, open cmd to run -> `npm install`
