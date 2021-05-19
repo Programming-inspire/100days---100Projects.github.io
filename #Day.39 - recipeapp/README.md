@@ -1,7 +1,7 @@
 ## Recipe App With React
 
 In this Project, I’ll create a simple react web app that will display a list of food recipes.
-I can use Edamam API use to get the recipes. 
+I can use Edamam API, to use get the recipes. 
 
 ## How to run?
 
