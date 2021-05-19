@@ -1,0 +1,40 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  width: 500px;
+}
+
+.images {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.txt {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 15%;
+  font-family: monospace;
+}
+
+.cal {
+  font-size: 20px;
+  font-family: fantasy;
+  color: blue;
+}
+
+label {
+  font-family: fantasy;
+  text-decoration: underline;
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}

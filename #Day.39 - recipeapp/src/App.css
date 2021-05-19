@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to top, #000046, #1cb5e0);
+}
+.App {
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.search {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  margin-top: 40px;
+  width: 50%;
+  border: none;
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.search-button {
+  margin-top: 40px;
+  background: #000;
+  border: none;
+  padding: 25px 40px;
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
