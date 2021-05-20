@@ -7,3 +7,4 @@ I'll create different image transitions and also make a title appear using CSS a
 ## Screenshot!
 
 
+![fullscreen](https://user-images.githubusercontent.com/67471717/118957598-49cb2500-b97e-11eb-9cbd-26571b093e3a.PNG)
