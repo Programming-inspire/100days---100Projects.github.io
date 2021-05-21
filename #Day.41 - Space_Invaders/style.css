@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+.grid {
+  background-color: #fff;
+  box-shadow: white 20px 10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px;
+  width: 300px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.shooter {
+  background-color: green;
+}
+
+.laser {
+  background-color: orange;
+}
+
+.boom {
+  background-color: red;
+}
