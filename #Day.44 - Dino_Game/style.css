@@ -1,0 +1,62 @@
+body {
+  background: rgba(200, 201, 203, 255);
+}
+h1 {
+  text-align: center;
+}
+
+#game {
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  background-image: url(image1.jpg);
+}
+
+#dino {
+  height: 100px;
+  width: 120px;
+  position: relative;
+  background-image: url(image3.png);
+  top: 400px;
+  background-size: cover;
+}
+
+#rock {
+  height: 80px;
+  width: 90px;
+  position: relative;
+  background-image: url(image2.png);
+  top: 335px;
+  left: 500px;
+  background-size: cover;
+  animation: rock 1.33s infinite;
+}
+
+@keyframes rock {
+  0% {
+    left: 1050px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+.jump-animation {
+  animation: jump 0.5s;
+}
+
+@keyframes jump {
+  0% {
+    top: 225px;
+  }
+  50% {
+    top: 75px;
+  }
+  75% {
+    top: 75px;
+  }
+  100% {
+    top: 225px;
+  }
+}
