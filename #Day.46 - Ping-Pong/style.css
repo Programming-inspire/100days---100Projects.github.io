@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+  text-align: left;
+}
