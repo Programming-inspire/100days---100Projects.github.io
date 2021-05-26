@@ -5,6 +5,6 @@ Dino has stable in one position, rock moves right to left position. Dino has jum
 Otherwise game should be over.
 
 
-## Video
+## Demo
 
 ![dino](https://user-images.githubusercontent.com/67471717/119351822-8bc9d300-bcbe-11eb-866f-7204baf67b5e.gif)
