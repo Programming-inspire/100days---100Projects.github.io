@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+body {
+  align-content: space-around;
+  background-color: #545f5f;
+  color: #fbf5f3;
+  display: grid;
+  justify-content: center;
+}
