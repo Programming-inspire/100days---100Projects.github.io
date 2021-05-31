@@ -1,4 +1,4 @@
-## Background-Video with Landing Page
+## Simple landing page with background-video.
 
 In this Project, i will make a simple landing page with background-video.  A video background that takes up the entire browser window. 
 There is text on top of it which is an interesting effect.
