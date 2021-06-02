@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {  color:#000000;
+    font-size: 18px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin:0px;text-align:center;}
+	
+body a {color:#0066ff;}
+body h1 {font-size: 24px;}
+body h2 {font-size: 20px;}
+
+.mathformat { 
+    font-size: 28px; 
+	font-family: Arial,Verdana,sans-serif;
+	margin:0px;
+	text-align:center;
+	background-color:#9AFEFF;
+	color: #ffffff;
+	}
+
+button {
+    background-color: #54C571;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.btnabout {
+    background-color: #54C571;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+    .btnnext {
+    background-color: #FBB117;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+section, footer {display: block;} 
+
+
+footer {
+  bottom:0px;
+  margin:0px;
+  position:absolute;
+  /*height:13%;*/
+  width:100%;
+background-color:#9AFEFF;
+fill: currentColor;
+color: blue;
+} 
+
+footer td
+{
+color: #000080;
+font-size: small;
+}
+
+
+
+.table1 {
+border-spacing:20px;
+text-align:center;
+border:0;
+border-spacing:0px;
+margin-left:auto; 
+margin-right:auto;
+}
+
+table
+{
+border:0;
+width:95%;
+/*table-layout:fixed;*/
+}
+
