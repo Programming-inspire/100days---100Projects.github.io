@@ -1,6 +1,6 @@
 ## Math Trainer
 
-The Math Trainer is a simple project developed using HTML and, CSS. This project is an interesting project. 
+The Math Trainer is a simple project developed using HTML, CSS and Javascript. This project is an interesting project. 
 The user can test their calculation skills through this app.
 If you are able to give the right solution to the problem, then the result will be green. If not, then the result will turn red.  
 
