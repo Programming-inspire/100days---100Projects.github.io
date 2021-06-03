@@ -1,7 +1,6 @@
 ## Sidebar Navigation Menu using React
 
-In this project, i will learn to create sidebar navigation menu using react.js. I will useing React hooks, router and react icons in this project.
-You will be able to open and close the sidebar menu with a simple click  and i can use router, so easily navigate form one menu option to another.
+ In this project, I will learn to create a sidebar navigation menu using react.js. I will use React hooks, router, and react icons in this project. You will be able to open and close the sidebar menu with a simple click and I can use a router, so easily navigate from one menu option to another.
 
 ## how to run?
 1. Download the repository 
