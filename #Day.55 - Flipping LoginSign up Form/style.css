@@ -1,0 +1,184 @@
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: 0 !important;
+}
+
+/* flip the pane when hovered */
+.card-container:not(.manual-flip):hover .card,
+.card-container.hover.manual-flip .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card-container.static:hover .card,
+.card-container.static.hover .card {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+/* flip speed goes here */
+.card {
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 330px;
+  border: none;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  z-index: 3;
+}
+
+.back .btn-simple {
+  /*    position: absolute;*/
+  left: 0;
+  bottom: 4px;
+}
+
+.card .footer {
+  border-top: 1px solid #1a1515;
+  color: #030202;
+  margin: 30px 0 0;
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+.btn-simple {
+  opacity: 1;
+  color: #000;
+}
+
+.btn-simple:hover,
+.btn-simple:focus {
+  background-color: transparent;
+  box-shadow: none;
+  opacity: 1;
+}
+.btn-simple i {
+  font-size: 16px;
+}
+
+body,
+html {
+  margin-top: 50px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
+  min-height: 500px;
+}
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  min-height: 400px;
+  width: 330px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.github {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 500px;
+}
+.login_btn {
+  width: 200px;
+  background: #c0392b !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #000000 !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #000000 !important;
+}
+
+/*       Fix bug for IE      */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .front,
+  .back {
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+
+  .back {
+    visibility: hidden;
+    -ms-transition: all 0.2s cubic-bezier(0.92, 0.01, 0.83, 0.67);
+  }
+  .front {
+    z-index: 4;
+  }
+  .card-container:not(.manual-flip):hover .back,
+  .card-container.manual-flip.hover .back {
+    z-index: 5;
+    visibility: visible;
+  }
+}
