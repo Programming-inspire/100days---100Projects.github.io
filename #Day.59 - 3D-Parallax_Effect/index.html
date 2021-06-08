@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Parallax Effect </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>3D Parallax Tilt Effect</h1>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="elon-musk.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Elon Musk</h2>
+                <p>Elon Reeve Musk FRS is an entrepreneur and business 
+                   magnate. He is the founder, CEO, and Chief Engineer 
+                   at SpaceX; early stage investor, CEO, and Product 
+                   Architect of Tesla, Inc.; founder of The Boring 
+                   Company; and co-founder of Neuralink and OpenAI. 
+                   A centibillionaire,Musk is one of the richest people
+                   in the world.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="jeff-Bezos.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Jeff Bezos </h2>
+                <p>Jeffrey Preston Bezos is an American business magnate, 
+                    a proprietor, and investor. Bezos is the founder and 
+                    CEO of the multi-national technology company Amazon.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+ <script type="text/javascript">
+     VanillaTilt.init(document.querySelectorAll(".box"), {
+    max: 25,
+    speed: 400
+});
+
+ </script>   
+</body>
+</html>
