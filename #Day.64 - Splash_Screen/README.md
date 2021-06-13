@@ -1,6 +1,6 @@
 ## Splash-Screen
 
-In this project, I will learn to make a simple Splash screen using HTML, CSS and Javascript.  It is a Javascript and CSS based styles to display an introduction page
+In this project, I will learn to make a simple Splash screen using HTML, CSS and Javascript.  It is a Javascript and CSS based styles to display an Loading page
 while your web application is launching as Welcome page.
 
 ## Demo
