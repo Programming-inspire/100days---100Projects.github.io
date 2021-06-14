@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Giphy app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Giphy Search</h1>
+    <div id="header">
+        <div id="search-bar">
+            <input id="search-text" type="text" placeholder="Search GIFs" />
+            <button id="search-btn" type="submit">Search</button>
+            <!-- <button id="reset-btn">Reset</button> -->
+
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Trending')">Trending</button>
+                <!-- <button class="tablinks" onclick="openTab(event, 'Popular')">Popular</button>
+                <button class="tablinks" onclick="openTab(event, 'Top30')">Top 30</button> -->
+                <button class="tablinks" onclick="openTab(event, 'Search')" id="defaultOpen">Search</button>
+            </div>
+
+            <div id="Trending" class="tabcontent">
+                <div id="trending-gifs">
+                </div>
+            </div>
+              
+            <div id="Popular" class="tabcontent">
+                <h3>Popular</h3>
+                <p>Popular gifs on giphy</p>
+            </div>
+              
+            <div id="Top30" class="tabcontent">
+                <h3>Top30</h3>
+                <p>Top 30 on giphy</p>
+            </div>
+        
+            <div id="Search" class="tabcontent">
+                <!-- <h3>Search</h3> -->
+                <div id="inner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tab links -->
+   
+    <!-- Tab content -->
+   
+    
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
