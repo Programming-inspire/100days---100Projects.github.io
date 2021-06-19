@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  color: black;
+}
+
+#command {
+  position: relative;
+  margin-top: 400px;
+  margin-left: 45%;
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+#speakBtn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 160px;
+  height: 80px;
+  border: 2px solid black;
+  font-family: fantasy;
+  font-size: 1.3rem;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem;
+}
