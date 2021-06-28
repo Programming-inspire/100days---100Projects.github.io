@@ -1,7 +1,6 @@
 ## Filter List
 
-In this project, I will learn to make a Filter list app using HTML, CSS and JAVASCRIPT. It is a simple project, that allows to show a matched content based on the keyboard
-typed in the search field.
+ In this project, I will learn to make a Filter list app using HTML, CSS, and JAVASCRIPT. It is a simple project, that shows matched content based on the keyboard typed in the search field.
 
 
 
