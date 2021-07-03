@@ -1,0 +1,72 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Changer</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Change the CSS of below image as you wish with the help of</h1>
+      <span class="heading">JavaScript</span>
+      <div class="css-controller">
+        <label for="width">Width :</label>
+        <input
+          id="width"
+          type="range"
+          name="width"
+          min="0"
+          max="100"
+          value="50"
+          data-sizing="%"
+        />
+
+        <label for="width">Border-Radius :</label>
+        <input
+          id="border-radius"
+          type="range"
+          name="border-radius"
+          min="0"
+          max="100"
+          value="5"
+          data-sizing="px"
+        />
+
+        <label for="base">Base Color </label>
+        <input id="base" type="color" name="base" value="#FF0000" />
+
+        <label for="padding">Padding :</label>
+        <input
+          id="padding"
+          type="range"
+          name="padding"
+          min="10"
+          max="200"
+          value="0"
+          data-sizing="px"
+        />
+
+        <label for="blur">Blur :</label>
+        <input
+          id="blur"
+          type="range"
+          name="blur"
+          min="0"
+          max="25"
+          value="0"
+          data-sizing="px"
+        />
+      </div>
+      <img
+        src="https://cdn.vox-cdn.com/thumbor/K5IUSjv1ArPfjh_IZUp4DPsoZMY=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22024938/marvels_spiderman_remastered_screenshot_01_disclaimer_en_01oct20.png"
+        alt="Image from Unsplash"
+      />
+    </div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html
