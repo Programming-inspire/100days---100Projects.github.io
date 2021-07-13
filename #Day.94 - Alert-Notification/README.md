@@ -1,6 +1,6 @@
 ## Alert Notification
 
-In this project, I will learn to make a alert Notification using HTML, CSS and Javascript. A notification is a message you can show to the customer outside of 
+In this project, I will learn to make an alert Notification using HTML, CSS and Javascript. A notification is a message you can show to the customer outside of 
 your application’s ordinary UI. They are also considered as one of the basic elements in website design.
 
 ## Demo
