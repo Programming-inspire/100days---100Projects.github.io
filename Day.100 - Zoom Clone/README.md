@@ -8,7 +8,6 @@ he/she can send that unique link to ones whom to communicate. It makes separate 
 - Express
 - ejs
 - uuid
-- nodemon
 - peerjs library
 
 ## Zoom
